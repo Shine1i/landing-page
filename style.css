@@ -1,14 +1,21 @@
 body {
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
-img{
+
+img {
     width: 100px;
     height: 150px;
 
 
 }
+
 /*header style*/
-.header{
+.header {
     display: flex;
     background-color: #1F2937;
     color: white;
@@ -16,12 +23,14 @@ img{
     align-items: center;
 
 }
-.header a{
+
+.header a {
     text-decoration: none;
     color: white;
 }
+
 /*hero section style*/
-.hero{
+.hero {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -31,32 +40,38 @@ img{
 
 
 }
-.hero div{
+
+.hero div {
     height: auto;
     width: 450px;
 }
-.hero p{
+
+.hero p {
     width: 450px;
 }
-.hero h1{
+
+.hero h1 {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
     width: 800px;
 }
-.hero button{
-    background-color: #3882f6;
+
+button {
+    background-color: gray;
     padding: 8px 20px;
     border-radius: 10px;
     color: #Fff;
     font-weight: bold;
     font-size: small;
 }
+
 /*boxes style*/
-#title{
+#title {
     text-align: center;
 }
-.boxes{
+
+.boxes {
     display: flex;
     gap: 32px;
     align-items: center;
@@ -64,15 +79,74 @@ img{
     text-align: center;
 
 }
-.boxes .item{
+
+.boxes .item {
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
-.boxes img{
+
+.boxes img {
     border: 4px solid #3882f6;
     border-radius: 20px;
     padding: 5px 20px;
     margin-bottom: 15px;
+}
+
+/*quote text style*/
+.quote-text {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+
+}
+
+.quote-text #main-text {
+    width: 800px;
+    font-size: large;
+    font-weight: 100;
+}
+
+.quote-text #quoted {
+    width: 440px;
+    font-weight: bold;
+    display: flex;
+    align-self: end;
+    margin: 0;
+    padding: 0;
+}
+/*reference*/
+.reference{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reference .container{
+    display: flex;
+    width: 900px;
+    flex-direction: column;
+    background-color: #3B82F6;
+    color: white;
+    padding: 16px;
+    border-radius: 20px;
+}
+.button{
+    display: flex;
+    justify-content: end;
+    padding-right: 70px;
+}
+/*footer*/
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1F2937;
+    margin-top: auto;
+    color: #fff;
 }
