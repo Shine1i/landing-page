@@ -153,8 +153,13 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    padding: 30px;
     background-color: #1F2937;
     margin-top: auto;
     color: #fff;
+}
+.hero h1,
+.secondary-text,
+button{
+    margin-left: 25px;
 }
